@@ -10,7 +10,7 @@ This is a paragrah
  -Oranges
  -Bananas
  
- ## Some c code 
+## Some c code 
  
  ...
  int i;
