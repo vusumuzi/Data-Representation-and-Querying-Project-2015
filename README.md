@@ -7,5 +7,9 @@ This project provides the design and documentation for the dataset Secondary Sch
 
 The data can be used mainly by teachers, lecturers and parents or guardian moving location to Dublin. 
 
+### About the Data
+
+This dataset was received in Comma Separated Values (CSV) format, and was download  from https://data.gov.ie/dataset/secondary-school-locations. The CSV file contains 18 rows and has 8 columns.
+
 
 
