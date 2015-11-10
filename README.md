@@ -9,7 +9,7 @@ The data can be used mainly by teachers, lecturers and parents or guardian movin
 
 ### About the DataSet
 
-This dataset was received in Comma Separated Values (CSV) format, and was download  from https://data.gov.ie/dataset/secondary-school-locations. The CSV file contains 18 rows, the first being a header row with the names of each field. There are ten values which are as follows:
+This dataset was received in Comma Separated Values (CSV) format, and was download  from https://data.gov.ie/dataset/secondary-school-locations. The CSV file contains 18 rows, the first being a header row with the names of each field. There are twenty values which are as follows:
 
 Field| Value
 -------|-----
@@ -24,13 +24,20 @@ Address4 | Address Line4
 Phone Number| Contact Number
 Fax Number| Active Number
 Email address| Contact email
-Private/Public|Yes|No
+Private/Public|Yes/No
 Religion|Named religion
 Medium of Instruction|English Only/Irish/Both
 Girls/Boys Only| Yes/No
 Girls| Total
 Boys|Total
 School Total|Boys & Girls
+
+## Designing The API
+
+The app should be simple enough for anybody to use but at the sametime the high standards would be upheld.
+
+
+
 
 
 
