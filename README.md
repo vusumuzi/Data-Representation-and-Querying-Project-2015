@@ -14,7 +14,29 @@ This dataset was received in Comma Separated Values (CSV) format, and was downlo
 Field| Value
 -------|-----
 Department|Education
-School Name|
+County| Name of County
+School Name|Name of School
+School Address|Address
+Address1 |Address Line 1
+Address2 | Address Line 2
+Address3 |Address Line3
+Address4 | Address Line4
+Phone Number| Contact Number
+Fax Number| Active Number
+Email address| Contact email
+Private/Public|Yes|No
+Religion|Named religion
+Medium of Instruction|English Only/Irish/Both
+Girls/Boys Only| Yes/No
+Girls| Total
+Boys|Total
+School Total|Boys & Girls
+
+
+
+
+
+
 
 
 
