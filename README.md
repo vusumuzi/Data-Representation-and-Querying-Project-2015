@@ -37,7 +37,7 @@ School Total|Boys & Girls
 The app should be simple enough for anybody to use but at the sametime the high standards would be upheld.
 
 ### URLs
-The API is designed such that Http methods are enabled to make it user-friendly and embrace the latest techology. Some of the methods that are include: the POST, PUT and SEND.
+The API is designed such that Http methods are enabled to make it user-friendly and embrace the latest technology. Some of the methods used  include: POST, PUT and SEND.
 
 ## Total number of schools  in the South of Dublin.
 You can get the total number of pupils in a particular year using the get method.
@@ -55,12 +55,20 @@ An example of a response would be:
     ```
 
 ####Post-add secondary location
-*describe
+
+http://edu.dblin.south/SecondarySchoolLocations
+
+**POST Method**
+
+The POST method is one of the most important methods in webservers.Any school can  use the POST method  to send some data to the server, especially when they want to update the file.  Below is an example of  how the POST method is used to send  data to the server, which will be processed finally and a response will be returned:
+
+POST //edu.dblin.south/SecondarySchoolLocations HTTP/1.1
 
 ####request url
 http://edu.dblin.south/SecondarySchoolLocations
 
 ####usage
+ POST method is used to submit data which be processed to a specified resource
 
 ####response body
    ```json
@@ -74,38 +82,39 @@ http://edu.dblin.south/SecondarySchoolLocations
     "ITMNorth":"726528.533"
    ```
    
-####Put
+#### Put
 
-####request url
 
-####usage
+#### request url
 
-####response body
+#### usage
+
+#### response body
  ```json
    
    
    ```
 
-####get
+#### get
 
-####request url
+#### request url
 
-####usage
+#### usage
 
-####response body
+#### response body
  ```json
    
    
    ```
    
    
-####delete
+#### delete
 
-####request url
+#### request url
 
-####usage
+#### usage
 
-####response body
+#### response body
  ```json
    
    
