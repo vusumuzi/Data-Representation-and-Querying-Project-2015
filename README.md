@@ -174,7 +174,7 @@ DELETE http://edu.dblin.south/SecondarySchoolLocations/girls/2002
     "ITMNorth":"726528.533"
    
    ```
-   Conclusion
+   **Conclusion**
    
    The API that is designed for the users has advantages and disadvantages in the sense that users do not have the capacity     to add or remove any entries.  
 
