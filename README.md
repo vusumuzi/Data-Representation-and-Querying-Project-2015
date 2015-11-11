@@ -52,6 +52,65 @@ The data will be returned in JSON format, with the following properties:
 An example of a response would be:
     ```json
     [ {"year": 2012, "total": " 5000", ...}, {...}, ...]
+    ```
+
+####Post-add secondary location
+*describe
+
+####request url
+http://edu.dblin.south/SecondarySchoolLocations
+
+####usage
+
+####response body
+   ```json
+   "Organisation":"DEPARTMENT OF EDUCATION AND SCIENCE",
+    "Name":"SCOIL NAOMH MAELRUANS",
+    "Address1":"OLD BAWN AVENUE",
+    "Address2":"TALLAGHT",
+    "Address3":"DUBLIN 24",
+    "Address4":null,
+    "ITMEast":"709200.334",
+    "ITMNorth":"726528.533"
+   ```
+   
+####Put
+
+####request url
+
+####usage
+
+####response body
+ ```json
+   
+   
+   ```
+
+####get
+
+####request url
+
+####usage
+
+####response body
+ ```json
+   
+   
+   ```
+   
+   
+####delete
+
+####request url
+
+####usage
+
+####response body
+ ```json
+   
+   
+   ```
+
 
 
 
