@@ -1,6 +1,7 @@
 # Secondary School Locations
+# in South Dublin County council
 ## Data-Representation-and-Querying-Project-2015
-### Vusumuzi Khumalo
+### Author: Vusumuzi Khumalo
 
 ## Introduction
 This project provides the design and documentation for the dataset Secondary School Locations which is available at  https://data.gov.ie/dataset/secondary-school-locations. The dataset is particulary taken fron the Secondary Schools in South Dublin County Council.
@@ -37,7 +38,7 @@ School Total|Boys & Girls
 The app should be simple enough for anybody to use but at the sametime the high standards would be upheld.
 
 ### URLs
-The API is designed such that Http methods are enabled to make it user-friendly and embrace the latest technology. Some of the methods used  include: POST, PUT and SEND.
+The API is designed such that Http methods are enabled to make it user-friendly and embrace the latest technology. Some of the methods used  include: POST,DELETE, PUT and SEND.
 
 ## Total number of schools  in the South of Dublin.
 You can get the total number of pupils in a particular year using the get method.
@@ -47,7 +48,7 @@ For example, the URL:
 will return a list of schools and the total numbers of pupils.
 The data will be returned in JSON format, with the following properties:
     - *year*: the year in question.
-    - *total*: the total enrollment for the year.
+    - *total*: the total enrolment for the year.
     ...
 An example of a response would be:
     ```json
