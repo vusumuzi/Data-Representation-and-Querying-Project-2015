@@ -11,51 +11,51 @@ The data can be used mainly by teachers, lecturers and parents or guardians movi
 
 This dataset was received in Comma Separated Values (CSV) format, and was download  from https://data.gov.ie/dataset/secondary-school-locations. The CSV file contains 18 rows, the first being a header row with the names of each field. There are twenty values which are as follows:
 
-Field| Value
--------|-----
-Department|Education
-County| Name of County
-School Name|Name of School
-School Address|Address
-Address1 |Address Line 1
-Address2 | Address Line 2
-Address3 |Address Line3
-Address4 | Address Line4
-Location| Position
-Phone Number| Contact Number
-Fax Number| Active Number
-Email address| Contact email
-Private/Public|Yes/No
-Religion|Named religion
-Medium of Instruction|English Only/Irish/Both
-Girls/Boys Only| Yes/No
-Girls| Total
-Boys|Total
-School Total|Boys & Girls
+Field         | Value
+--------------|--------
+Department    |  Education
+County        |  Name of County
+School Name   |  Name of School
+SchoolAddress |  Address
+Address1      |  Address Line 1
+Address2      |  Address Line 2
+Address3      |  Address Line3
+Address4      |  Address Line4
+Location      |  Position
+Phone Number  |  Contact Number
+Fax Number    | Active Number
+Email address | Contact email
+Private/Public| Yes/No
+Religion      | Named religion
+Language Used |English Only/Irish/Both
+Girls/BoysOnly| Yes/No
+Girls         | Total
+Boys          |Total
+School Total  |Boys & Girls
 
-## Designing The API
+### Designing The API
 The app should be simple enough for anybody to use but at the sametime the high standards would be upheld.
 
 ### URLs
 The API is designed such that Http methods are enabled to make it user-friendly and embrace the latest technology. Some of the methods used  include: POST,DELETE, PUT and SEND. 
 
-**Http Methods**
+###Http Methods
 
-*Method*|*Description*
----------|-----------
-GET | Requests data from a specified resource
-POST | Submits data to be processed to a specified resource
-HEAD  |	Same as GET but returns only HTTP headers and no document body
-PUT |	Uploads a representation of the specified URI
-DELETE|	Deletes the specified resource
-OPTIONS|	Returns the HTTP methods that the server supports
-CONNECT|	Converts the request connection to a transparent TCP/IP tunnel
+Method   |  Description
+---------|---------------
+*GET*    |  Requests data from a specified resource
+*POST*   |  Submits data to be processed to a specified resource
+*HEAD *  |	Same as GET but returns only HTTP headers and no document body
+*PUT*    |	Uploads a representation of the specified URI
+*DELETE* |	Deletes the specified resource
+*OPTIONS*|	Returns the HTTP methods that the server supports
+*CONNECT*|	Converts the request connection to a transparent TCP/IP tunnel
 
 ## Total number of schools  in the South of Dublin.
 You can get the total number of pupils in a particular year using the get method.
 *https://data.gov.ie/dataset/secondary-school-locations/*
 For example, the URL:
-*http://schoolsSouthDublin.com/year/Total*
+*http://schoolsSouthDublin.com/year/total*
 will return a list of schools and the total numbers of pupils.
 The data will be returned in JSON format, with the following properties:
     - *year*: the year in question.
@@ -72,7 +72,7 @@ http://edu.dblin.south/SecondarySchoolLocations
 
 **POST Method**
 
-The POST method is one of the most important methods in webservers.Any school can  use the POST method  to send some data to the server, especially when they want to update the file.  Below is an example of  how the POST method is used to send  data to the server, which will be processed and a response will be returned:
+The POST method is one of the most important methods in Https. Any school can  use the POST method  to send some data to the server, especially when they want to update the file.  Below is an example of  how the POST method is used to send  data to the server, which will be processed and a response will be returned:
 
 POST http://edu.dblin.south/SecondarySchoolLocations 
 
@@ -85,7 +85,7 @@ http://edu.dblin.south/SecondarySchoolLocations
  POST method is used to submit data which be processed to a specified resource
 
 ####response body
-A response  will returned in the form of json format.
+A response  willbe returned in the form of a json format.
    ```json
    "Organisation":"DEPARTMENT OF EDUCATION AND SCIENCE",
     "Name":"SCOIL NAOMH MAELRUANS",
@@ -112,24 +112,42 @@ The PUT method is a useful method for requesting a server to store data.
 
 #### response body
  ```json
-   
-   
+   "Organisation":"DEPARTMENT OF EDUCATION AND SCIENCE",
+    "Name":"SCOIL NAOMH MAELRUANS",
+    "Address1":"OLD BAWN AVENUE",
+    "Address2":"TALLAGHT",
+    "Address3":"DUBLIN 24",
+    "Address4":null,
+    "ITMEast":"709200.334",
+    "ITMNorth":"726528.533"
    ```
-
-#### get
+### get
+GET Method
+A GET  method is the main method which is used for retriving documents. The  GET request method retrieves data from a web server by specifying parameters in the URL portion of the request. . The following example illustrates how the  GET method is used to retrieve edu.secondaryschools.htm:
+GET /edu.secondaryschools.htm.
 
 #### request url
+GET /edu.secondaryschools.htm.
 
 #### usage
+To get particular information about schools in South Dublin County Council one would use the GET method which retrives the data from the server and send it back to the user. For instance if one is looking for schools which is boys only the URL would be http://edu.dblin.south/SecondarySchoolLocations/boys
 
 #### response body
  ```json
-   
-   
+   "Organisation":"DEPARTMENT OF EDUCATION AND SCIENCE",
+    "Name":"SCOIL NAOMH MAELRUANS",
+    "Address1":"OLD BAWN AVENUE",
+    "Address2":"TALLAGHT",
+    "Address3":"DUBLIN 24",
+    "Address4":null,
+    "ITMEast":"709200.334",
+    "ITMNorth":"726528.533"
    ```
-   
-   
 #### delete
+DELETE Method
+Files may hold information which is outdated or irrelevant. The DELETE method is therefore used to request the server to delete a file at a location specified by the given URL. The  example at the bottom shows how a  request is sent to the server to delete the given file at the root of the server:
+
+DELETE /http://edu.dblin.south/SecondarySchoolLocations/boys
 
 #### request url
 
