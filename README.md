@@ -62,11 +62,10 @@ http://edu.dblin.south/SecondarySchoolLocations
 
 The POST method is one of the most important methods in webservers.Any school can  use the POST method  to send some data to the server, especially when they want to update the file.  Below is an example of  how the POST method is used to send  data to the server, which will be processed and a response will be returned:
 
-POST http://edu.dblin.south/SecondarySchoolLocations HTTP/1.1
+POST http://edu.dblin.south/SecondarySchoolLocations 
 
 ####request url
 A request would be sent to the Server with the data.
-
 http://edu.dblin.south/SecondarySchoolLocations
 
 
@@ -74,8 +73,7 @@ http://edu.dblin.south/SecondarySchoolLocations
  POST method is used to submit data which be processed to a specified resource
 
 ####response body
-
-A response  will returned in the form of json.
+A response  will returned in the form of json format.
    ```json
    "Organisation":"DEPARTMENT OF EDUCATION AND SCIENCE",
     "Name":"SCOIL NAOMH MAELRUANS",
@@ -87,12 +85,18 @@ A response  will returned in the form of json.
     "ITMNorth":"726528.533"
    ```
    
-#### Put
+#### Put-secondary location
 
+**PUT Method**
+The PUT method is used to request the server to store the data at a location specified by the given URL. The following example requests the server to save the given  in edu.htm at the root of the server:
+
+PUT http://edu.dblin.south/SecondarySchoolLocations
 
 #### request url
+PUT http://edu.dblin.south/SecondarySchoolLocations
 
 #### usage
+The PUT method is a useful method for requesting a server to store data.
 
 #### response body
  ```json
