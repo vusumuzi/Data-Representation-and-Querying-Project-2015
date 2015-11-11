@@ -41,15 +41,15 @@ The API is designed such that Http methods are enabled to make it user-friendly 
 
 ###Http Methods
 
-Method   |  Description
----------|---------------
-*GET*    |  Requests data from a specified resource
-*POST*   |  Submits data to be processed to a specified resource
-*HEAD *  |	Same as GET but returns only HTTP headers and no document body
-*PUT*    |	Uploads a representation of the specified URI
-*DELETE* |	Deletes the specified resource
-*OPTIONS*|	Returns the HTTP methods that the server supports
-*CONNECT*|	Converts the request connection to a transparent TCP/IP tunnel
+Method     |  Description
+-----------|---------------
+**GET**    |  Requests data from a specified resource
+**POST**   |  Submits data to be processed to a specified resource
+**HEAD**   |	Same as GET but returns only HTTP headers and no document body
+**PUT**    |	Uploads a representation of the specified URI
+**DELETE** |	Deletes the specified resource
+**OPTIONS**|	Returns the HTTP methods that the server supports
+**CONNECT**|	Converts the request connection to a transparent TCP/IP tunnel
 
 ## Total number of schools  in the South of Dublin.
 You can get the total number of pupils in a particular year using the get method.
@@ -130,7 +130,7 @@ A GET  method is the main method which is used for retriving documents. The  GET
 GET /edu.secondaryschools.htm.
 
 #### request url
-GET /edu.secondaryschools.htm.
+GET http://edu.secondaryschools.htm.
 
 #### usage
 To get particular information about schools in South Dublin County Council one would use the GET method which retrives the data from the server and send it back to the user. For instance if one is looking for schools which is boys only the URL would be http://edu.dblin.south/SecondarySchoolLocations/boys
@@ -174,6 +174,9 @@ DELETE http://edu.dblin.south/SecondarySchoolLocations/girls/2002
     "ITMNorth":"726528.533"
    
    ```
+   Conclusion
+   
+   The API that is designed for the users has advantages and disadvantages in the sense that users do not have the capacity     to add or remove any entries.  
 
 
 
