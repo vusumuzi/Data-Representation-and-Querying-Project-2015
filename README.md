@@ -97,9 +97,10 @@ A response  willbe returned in the form of a json format.
     "ITMNorth":"726528.533"
    ```
    
-#### Put-secondary location
+#### Put-secondary locations
 
 **PUT Method**
+
 The PUT method is used to request the server to store the data at a location specified by the given URL. The following example requests the server to save the given  in edu.htm at the root of the server:
 
 PUT http://edu.dblin.south/SecondarySchoolLocations
@@ -121,8 +122,10 @@ The PUT method is a useful method for requesting a server to store data.
     "ITMEast":"709200.334",
     "ITMNorth":"726528.533"
    ```
-### get
-GET Method
+### get-secondary locations
+
+**GET Method**
+
 A GET  method is the main method which is used for retriving documents. The  GET request method retrieves data from a web server by specifying parameters in the URL portion of the request. . The following example illustrates how the  GET method is used to retrieve edu.secondaryschools.htm:
 GET /edu.secondaryschools.htm.
 
@@ -143,19 +146,32 @@ To get particular information about schools in South Dublin County Council one w
     "ITMEast":"709200.334",
     "ITMNorth":"726528.533"
    ```
-#### delete
-DELETE Method
+#### delete-secondary locations
+
+**DELETE Method**
+
 Files may hold information which is outdated or irrelevant. The DELETE method is therefore used to request the server to delete a file at a location specified by the given URL. The  example at the bottom shows how a  request is sent to the server to delete the given file at the root of the server:
 
 DELETE /http://edu.dblin.south/SecondarySchoolLocations/boys
 
 #### request url
+http://edu.dblin.south/SecondarySchoolLocations/boys
 
 #### usage
+If the school needs to get rid of absolete data, a delete method would be appropiate to use. For example if a particular school wants to delete all the files that were created in 2002, the URL would look like like this:
+DELETE http://edu.dblin.south/SecondarySchoolLocations/girls/2002
 
 #### response body
  ```json
-   
+   json
+   "Organisation":"DEPARTMENT OF EDUCATION AND SCIENCE",
+    "Name":"SCOIL NAOMH MAELRUANS",
+    "Address1":"OLD BAWN AVENUE",
+    "Address2":"TALLAGHT",
+    "Address3":"DUBLIN 24",
+    "Address4":null,
+    "ITMEast":"709200.334",
+    "ITMNorth":"726528.533"
    
    ```
 
