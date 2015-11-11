@@ -60,17 +60,22 @@ http://edu.dblin.south/SecondarySchoolLocations
 
 **POST Method**
 
-The POST method is one of the most important methods in webservers.Any school can  use the POST method  to send some data to the server, especially when they want to update the file.  Below is an example of  how the POST method is used to send  data to the server, which will be processed finally and a response will be returned:
+The POST method is one of the most important methods in webservers.Any school can  use the POST method  to send some data to the server, especially when they want to update the file.  Below is an example of  how the POST method is used to send  data to the server, which will be processed and a response will be returned:
 
-POST //edu.dblin.south/SecondarySchoolLocations HTTP/1.1
+POST http://edu.dblin.south/SecondarySchoolLocations HTTP/1.1
 
 ####request url
+A request would be sent to the Server with the data.
+
 http://edu.dblin.south/SecondarySchoolLocations
+
 
 ####usage
  POST method is used to submit data which be processed to a specified resource
 
 ####response body
+
+A response  will returned in the form of json.
    ```json
    "Organisation":"DEPARTMENT OF EDUCATION AND SCIENCE",
     "Name":"SCOIL NAOMH MAELRUANS",
