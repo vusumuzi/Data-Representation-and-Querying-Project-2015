@@ -5,11 +5,11 @@
 ## Introduction
 This project provides the design and documentation for the dataset Secondary School Locations which is available at  https://data.gov.ie/dataset/secondary-school-locations. The dataset is particulary taken fron the Secondary Schools in South Dublin County Council.
 
-The data can be used mainly by teachers, lecturers and parents or guardians moving location to Dublin and  any individuals who are interested looking for particular schools that is whether the school is in the city or in the periphery.
+The data can be used mainly by teachers, lecturers and parents or guardians moving location to Dublin and  any individuals who are interested at looking for particular schools that is whether the school is in the city or in the periphery in South of dublin County Council.
 
 ### About the DataSet
 
-This dataset was received in Comma Separated Values (CSV) format, and was download  from https://data.gov.ie/dataset/secondary-school-locations. The CSV file contains 18 rows, the first being a header row with the names of each field. There are twenty values which are as follows:
+This dataset was received in Comma Separated Values (CSV) format, and was downloaded  from https://data.gov.ie/dataset/secondary-school-locations. The CSV file contains 18 rows, the first being a header row with the names of each field. There are twenty values which are as follows:
 
 Field         | Value
 --------------|--------
@@ -43,15 +43,15 @@ The API is designed such that Http methods are enabled to make it user-friendly 
 
 Method     |  Description
 -----------|---------------
-**GET**    |  Requests data from a specified resource
-**POST**   |  Submits data to be processed to a specified resource
-**HEAD**   |	Same as GET but returns only HTTP headers and no document body
-**PUT**    |	Uploads a representation of the specified URI
-**DELETE** |	Deletes the specified resource
-**OPTIONS**|	Returns the HTTP methods that the server supports
-**CONNECT**|	Converts the request connection to a transparent TCP/IP tunnel
+  GET      |  Requests data from a specified resource
+  POST     |  Submits data to be processed to a specified resource
+  HEAD     |	Same as GET but returns only HTTP headers and no document body
+  PUT      |	Uploads a representation of the specified URI
+  DELETE   |	Deletes the specified resource
+  OPTIONS  |	Returns the HTTP methods that the server supports
+  CONNECT  |	Converts the request connection to a transparent TCP/IP tunnel
 
-## Total number of schools  in the South of Dublin.
+## Total number of schools  in the South of Dublin County Council.
 You can get the total number of pupils in a particular year using the get method.
 *https://data.gov.ie/dataset/secondary-school-locations/*
 For example, the URL:
@@ -163,7 +163,6 @@ DELETE http://edu.dblin.south/SecondarySchoolLocations/girls/2002
 
 #### response body
  ```json
-   json
    "Organisation":"DEPARTMENT OF EDUCATION AND SCIENCE",
     "Name":"SCOIL NAOMH MAELRUANS",
     "Address1":"OLD BAWN AVENUE",
