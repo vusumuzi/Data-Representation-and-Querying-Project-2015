@@ -126,14 +126,14 @@ The PUT method is a useful method for requesting a server to store data.
 
 **GET Method**
 
-A GET  method is the main method which is used for retriving documents. The  GET request method retrieves data from a web server by specifying parameters in the URL portion of the request. . The following example illustrates how the  GET method is used to retrieve edu.secondaryschools.htm:
+A GET  method is the main method which is used for retriving documents. The  GET request method retrieves data from a web server by specifying parameters in the URL portion of the request. The following example illustrates how the  GET method is used to retrieve edu.secondaryschools.htm:
 GET /edu.secondaryschools.htm.
 
 #### request url
 GET http://edu.secondaryschools.htm.
 
 #### usage
-To get particular information about schools in South Dublin County Council one would use the GET method which retrives the data from the server and send it back to the user. For instance if one is looking for schools which is boys only the URL would be http://edu.dblin.south/SecondarySchoolLocations/boys
+To get particular information about schools in South Dublin County Council one would use the GET method which retrives the data from the server and send it back to the user. For instance if one is looking for schools which is boys only the URL would be *http://edu.dblin.south/SecondarySchoolLocations/boys*
 
 #### response body
  ```json
@@ -152,7 +152,7 @@ To get particular information about schools in South Dublin County Council one w
 
 Files may hold information which is outdated or irrelevant. The DELETE method is therefore used to request the server to delete a file at a location specified by the given URL. The  example at the bottom shows how a  request is sent to the server to delete the given file at the root of the server:
 
-DELETE /http://edu.dblin.south/SecondarySchoolLocations/boys
+DELETE http://edu.dblin.south/SecondarySchoolLocations/boys
 
 #### request url
 http://edu.dblin.south/SecondarySchoolLocations/boys
