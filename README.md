@@ -35,11 +35,22 @@ School Total  |Boys & Girls
 
 ### Designing The API
 The app should be simple enough for anybody to use but at the sametime the high standards would be upheld.
+The API is designed such that Http methods are enabled to make it user-friendly and embrace the latest technology. Some of the methods used  include: POST,DELETE, PUT and SEND.
 
 ### URLs
-The API is designed such that Http methods are enabled to make it user-friendly and embrace the latest technology. Some of the methods used  include: POST,DELETE, PUT and SEND. 
+
+**URL**|**Description**
+ ------|---------
+http   | Protocol
+80     | Port
+www    | Subdomain
+dublin.ie |Domain
+
+
+http://schoolsSouthDublin.ie/year/total
 
 ###Http Methods
+Below is a list of some of the methods that are used in http and  include the following: POST,DELETE, PUT and SEND. 
 
 Method     |  Description
 -----------|---------------
