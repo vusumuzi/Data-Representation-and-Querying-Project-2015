@@ -4,7 +4,7 @@
 ####Due Date 13 November
 
 ## Introduction
-This project provides the design and documentation for the dataset Secondary School Locations which is available at  *https://data.gov.ie/dataset/secondary-school-locations*. The dataset is particulary taken fron the Secondary Schools in South Dublin County Council.
+This project provides the design and documentation for the dataset Secondary School Locations which is available at  *https://data.gov.ie/dataset/secondary-school-locations*. The dataset is particulary taken from the Secondary Schools in South Dublin County Council. 
 
 The data can be used mainly by teachers, lecturers and parents or guardians moving location to Dublin and  any individuals who are interested at looking for particular schools that is whether the school is in the city or in the periphery in South of dublin County Council.
 
