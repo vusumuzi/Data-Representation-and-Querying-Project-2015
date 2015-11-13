@@ -1,14 +1,16 @@
 # Secondary School Locations in South Dublin County council
 ## Data-Representation-and-Querying-Project-2015
 ### Author: Vusumuzi Khumalo
+####Due Date 13 November
 
 ## Introduction
-This project provides the design and documentation for the dataset Secondary School Locations which is available at  https://data.gov.ie/dataset/secondary-school-locations. The dataset is particulary taken fron the Secondary Schools in South Dublin County Council.
+This project provides the design and documentation for the dataset Secondary School Locations which is available at  *https://data.gov.ie/dataset/secondary-school-locations*. The dataset is particulary taken fron the Secondary Schools in South Dublin County Council.
 
 The data can be used mainly by teachers, lecturers and parents or guardians moving location to Dublin and  any individuals who are interested at looking for particular schools that is whether the school is in the city or in the periphery in South of dublin County Council.
 
 ### About the DataSet
 
+<!--Below is a brief explanation of what the dataset is all about-->
 This dataset was received in Comma Separated Values (CSV) format, and was downloaded  from https://data.gov.ie/dataset/secondary-school-locations. The CSV file contains 18 rows, the first being a header row with the names of each field. There are twenty values which are as follows:
 
 Field         | Value
@@ -40,6 +42,8 @@ Boys          |Total
 School Total  |Total
 
 ### Designing The API
+
+<!--Explanation of why designing the API and how it is going to be useful to the users-->
 The app should be simple enough for anybody to use but at the sametime the high standards would be upheld.
 The API is designed such that Http methods are enabled to make it user-friendly and embrace the latest technology. Some of the methods used  include: POST,DELETE, PUT and SEND.
 
@@ -87,13 +91,14 @@ An example of a response would be:
 
 ####Post-add secondary location
 
-http://edu.dblin.south/SecondarySchoolLocations
+http://edu.dblin.south/SecondarySchoolLocations/NAOMH MAELRUANS.html
 
 **POST Method**
 
+<!--A brief explanation of the POST method and how it is used with an example below-->
 The POST method is one of the most important methods in Https. Any school can  use the POST method  to send some data to the server, especially when they want to update the file.  Below is an example of  how the POST method is used to send  data to the server, which will be processed and a response will be returned:
-
-POST http://edu.dblin.south/SecondarySchoolLocations 
+m
+POST http://edu.dblin.south/SecondarySchoolLocations
 
 ####request url
 A request would be sent to the Server with the data.
@@ -120,6 +125,7 @@ A response  willbe returned in the form of a json format.
 
 **PUT Method**
 
+<!--Brief explanation of  the PUT method and an example at the bottom-->
 The PUT method is used to request the server to store the data at a location specified by the given URL. The following example requests the server to save the given  in edu.htm at the root of the server:
 
 PUT http://edu.dblin.south/SecondarySchoolLocations
@@ -145,6 +151,7 @@ The PUT method is a useful method for requesting a server to store data.
 
 **GET Method**
 
+<!--The most used http method and an example  given at the bottom. This would teftch tthe data and send it back in jason format-->
 A GET  method is the main method which is used for retriving documents. The  GET request method retrieves data from a web server by specifying parameters in the URL portion of the request. The following example illustrates how the  GET method is used to retrieve edu.secondaryschools.htm:
 GET /edu.secondaryschools.htm.
 
