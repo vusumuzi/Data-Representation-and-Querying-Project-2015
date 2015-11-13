@@ -26,6 +26,8 @@ Y- Position   |  ITMNorth
 
 Some of the information which could be added on the csv file is listed at the bottom, for example all schools have phone numbers, fax-numbers and email addresses.
 
+Field         | Value
+--------------|------------
 Phone Number  |  Contact Number
 Fax Number    | Active Number
 Email address | Contact email
