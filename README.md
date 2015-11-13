@@ -60,7 +60,7 @@ dublin.ie |Domain
 http://schoolsSouthDublin.ie/year/total.html
 
 ###Http Methods
-Below is a list of some of the methods that are used in http and  include the following: POST,DELETE, PUT and SEND. 
+Below is a list of some of the methods that are used in http and  include the following: POST, DELETE, PUT and SEND. 
 
 <!--This information was taken from the following link: http://www.tutorialspoint.com/http/http_methods.htm-->
 
@@ -96,8 +96,8 @@ http://edu.dblin.south/SecondarySchoolLocations/NAOMH MAELRUANS.html
 **POST Method**
 
 <!--A brief explanation of the POST method and how it is used with an example below-->
-The POST method is one of the most important methods in Https. Any school can  use the POST method  to send some data to the server, especially when they want to update the file.  Below is an example of  how the POST method is used to send  data to the server, which will be processed and a response will be returned:
-m
+The POST method is one of the most important methods in Https. Any school can  use the POST method  to send some data to the server, especially when they want to update the file.  Below is an example of  how the POST method is used to send  data to the server, which will be processed and a response will be returned.
+
 POST http://edu.dblin.south/SecondarySchoolLocations
 
 ####request url
@@ -202,4 +202,4 @@ DELETE http://edu.dblin.south/SecondarySchoolLocations/girls/2002
    ```
    **Conclusion**
    
-   The API that is designed for the users has advantages and disadvantages in the sense that users do not have the capacity to add or remove any entries. It has all the necessary methods for getting the information which one wants and updating the files which had been created. 
+The API that is designed for the users has advantages and disadvantages in the sense that users do not have the capacity to add or remove any entries. It has all the necessary methods for getting the information which one wants and updating the files which had been created. 
