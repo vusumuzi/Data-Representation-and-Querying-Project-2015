@@ -21,17 +21,20 @@ Address1      |  Address Line 1
 Address2      |  Address Line 2
 Address3      |  Address Line3
 Address4      |  Address Line4
-Location      |  Position
+X- Position   |  ITMEast
+Y- Position   |  ITMNorth   
+
+Some of the information which could be added on the csv file is listed at the bottom, for example all schools have phone numbers, fax-numbers and email addresses.
+
 Phone Number  |  Contact Number
 Fax Number    | Active Number
 Email address | Contact email
-Private/Public| Yes/No
 Religion      | Named religion
 Language Used |English Only/Irish/Both
 Girls/BoysOnly| Yes/No
 Girls         | Total
 Boys          |Total
-School Total  |Boys & Girls
+School Total  |Total
 
 ### Designing The API
 The app should be simple enough for anybody to use but at the sametime the high standards would be upheld.
