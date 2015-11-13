@@ -24,8 +24,9 @@ Address4      |  Address Line4
 X- Position   |  ITMEast
 Y- Position   |  ITMNorth   
 
-Some of the information which could be added on the csv file is listed at the bottom, for example all schools have phone numbers, fax-numbers and email addresses.
+Some of the information which could be added on the csv file is listed at the bottom, for example all schools have phone numbers, fax-numbers and email addresses. In addditon there could be a section which has a website for the schools where there woulb be most of the information concerning a particular school.
 
+<!-- Some of the fields that could be added in the csv file-->
 Field         | Value
 --------------|------------
 Phone Number  |  Contact Number
@@ -52,10 +53,12 @@ www    | Subdomain
 dublin.ie |Domain
 
 
-http://schoolsSouthDublin.ie/year/total
+http://schoolsSouthDublin.ie/year/total.html
 
 ###Http Methods
 Below is a list of some of the methods that are used in http and  include the following: POST,DELETE, PUT and SEND. 
+
+<!--This information was taken from the following link: http://www.tutorialspoint.com/http/http_methods.htm-->
 
 Method     |  Description
 -----------|---------------
@@ -166,6 +169,7 @@ To get particular information about schools in South Dublin County Council one w
 
 **DELETE Method**
 
+<!-- This command retrieves the file and delete it -->
 Files may hold information which is outdated or irrelevant. The DELETE method is therefore used to request the server to delete a file at a location specified by the given URL. The  example at the bottom shows how a  request is sent to the server to delete the given file at the root of the server:
 
 DELETE http://edu.dblin.south/SecondarySchoolLocations/boys
@@ -177,6 +181,7 @@ http://edu.dblin.south/SecondarySchoolLocations/boys
 If the school needs to get rid of absolete data, a delete method would be appropiate to use. For example if a particular school wants to delete all the files that were created in 2002, the URL would look like like this:
 DELETE http://edu.dblin.south/SecondarySchoolLocations/girls/2002
 
+<!-- This would retrieve the file and delete it -->
 #### response body
  ```json
    "Organisation":"DEPARTMENT OF EDUCATION AND SCIENCE",
@@ -187,22 +192,7 @@ DELETE http://edu.dblin.south/SecondarySchoolLocations/girls/2002
     "Address4":null,
     "ITMEast":"709200.334",
     "ITMNorth":"726528.533"
-   
    ```
    **Conclusion**
    
-   The API that is designed for the users has advantages and disadvantages in the sense that users do not have the capacity     to add or remove any entries.  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   The API that is designed for the users has advantages and disadvantages in the sense that users do not have the capacity to add or remove any entries. It has all the necessary methods for getting the information which one wants and updating the files which had been created. 
